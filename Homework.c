@@ -19,7 +19,7 @@ int compareNames(const void *a, const void *b) {
 int compareAges(const void *a, const void *b) {
     const Employee *employeeA = (const Employee *)a;
     const Employee *employeeB = (const Employee *)b;
-    return employeeB->age - employeeA->age; // Sort in descending order
+    return employeeB->age - employeeA->age;
 }
 
 int loadNumberOfEmployees(const char *filename) {
